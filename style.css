@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 5px;
+}
+
+.cal1 {
+    width: 8.33%;
+}
+
+.cal2 {
+    width: 16.66%;
+}
+
+.cal3 {
+    width: 25%;
+}
+
+.cal4 {
+    width: 33%;
+}
+
+.cal5 {
+    width: 41.66%;
+}
+
+.cal6 {
+    width: 50%;
+}
+
+.cal7 {
+    width: 58.33%;
+}
+
+.cal8 {
+    width: 66.70%;
+}
+
+.cal9 {
+    width: 75%;
+}
+
+.cal10 {
+    width: 83.33%;
+}
+
+.cal11 {
+    width: 91.66%;
+}
+
+.cal12 {
+    width: 100%;
+}
+
+.box {
+    position: relative;
+    padding: 5px;
+}
+
+p {
+    position: absolute;
+    margin: 0px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.out div {
+    border-radius: 15px;
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.header {
+    background-color: blue;
+    height: 100px;
+}
+
+.sidebar {
+    background-color: red;
+    height: 530px;
+}
+
+.mainsection {
+    background-color: yellow;
+    height: 530px;
+}
+
+.footer {
+    background-color: green;
+    height: 200px;
+}
